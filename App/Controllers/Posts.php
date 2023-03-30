@@ -7,6 +7,7 @@
 namespace App\Controllers;
 
 use App\Models\Postsdb;
+use App\Models\User;
 use Core\Controller;
 use Core\View;
 
@@ -102,5 +103,7 @@ class Posts extends Controller {
     $post = Postsdb::showAllPosts();
     View::render('Posts/newsFeed.php', ['post' => $post]);
   }
+
+
 
 }

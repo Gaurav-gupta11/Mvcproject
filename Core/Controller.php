@@ -94,6 +94,14 @@ abstract class Controller
 		return null;
 	}
 
+	public function getUserSearch() {
+		if (isset($_SESSION['id'])) {
+			return User::findByID($_SESSION['id']);
+		}
+
+		return null;
+	}
+
 	/**
 	 * Returns all posts for the currently logged in user.
 	 *
@@ -115,6 +123,13 @@ abstract class Controller
 	public function getActivity() {
 		if (isset($_SESSION['post_id'])){
 			return Postsdb::findByIDActivity($_SESSION['post_id']);
+		}
+	}
+
+	public function searchUser() {
+		//var_dump($_POST);
+		if (isset($_POST)){
+			return User::searchActivity($_POST);
 		}
 	}
 
@@ -151,6 +166,7 @@ abstract class Controller
 		// Close the cURL session.
 		curl_close($curl);
 
+		//var_dump($response);
 		// Check if the email is valid using the SMTP check.
 		if ($array->smtp_check == '1') {
 			return true;
