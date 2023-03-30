@@ -1,0 +1,282 @@
+[27-Mar-2023 17:27:16 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $post'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(29): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 29
+[27-Mar-2023 18:03:20 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/items/index.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#1 [internal function]: App\Controllers\Posts->myActivityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 31
+[27-Mar-2023 18:03:41 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/items/index.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#1 [internal function]: App\Controllers\Posts->myActivityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 31
+[27-Mar-2023 18:03:57 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/items/index.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#1 [internal function]: App\Controllers\Posts->myActivityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 31
+[27-Mar-2023 18:04:30 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/items/index.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#1 [internal function]: App\Controllers\Posts->myActivityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 31
+[27-Mar-2023 18:04:43 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(12): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 12
+[27-Mar-2023 18:05:16 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(12): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 12
+[27-Mar-2023 18:07:40 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(12): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 12
+[27-Mar-2023 18:08:10 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(12): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 12
+[27-Mar-2023 18:08:46 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/myActivity.php(3): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/myActivity.php' on line 3
+[27-Mar-2023 18:08:53 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/myActivity.php(3): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/myActivity.php' on line 3
+[27-Mar-2023 18:09:09 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/myActivity.php(3): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(39): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/myActivity.php' on line 3
+[27-Mar-2023 18:12:13 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(12): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myyActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 12
+[27-Mar-2023 18:12:49 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(19): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myyActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 19
+[27-Mar-2023 18:15:10 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $post'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(30): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 30
+[27-Mar-2023 18:15:10 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $post'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(30): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 30
+[27-Mar-2023 18:17:39 Asia/Calcutta] Uncaught exception: 'Exception' with message 'Method myActivityAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#1 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/pr.com/html/Core/Controller.php' on line 57
+[27-Mar-2023 18:21:40 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $post'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(11): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(48): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 11
+[27-Mar-2023 18:26:14 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $post'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(11): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(50): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 11
+[27-Mar-2023 19:31:10 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "name"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(49): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[27-Mar-2023 19:31:39 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "name"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(49): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[27-Mar-2023 19:32:23 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(49): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[27-Mar-2023 19:32:24 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(49): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[27-Mar-2023 19:33:44 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(49): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[27-Mar-2023 19:34:28 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(49): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[27-Mar-2023 19:34:36 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "status"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(17): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(49): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 17
+[27-Mar-2023 19:37:35 Asia/Calcutta] Uncaught exception: 'Exception' with message 'Method myyActivityAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#1 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/pr.com/html/Core/Controller.php' on line 57
+[27-Mar-2023 19:37:52 Asia/Calcutta] Uncaught exception: 'Exception' with message 'Method myyActivityAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#1 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/pr.com/html/Core/Controller.php' on line 57
+[27-Mar-2023 19:49:01 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "id"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(17): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 17
+[27-Mar-2023 20:04:19 Asia/Calcutta] Uncaught exception: 'Exception' with message 'Method deleteAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#1 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/pr.com/html/Core/Controller.php' on line 57
+[27-Mar-2023 20:16:55 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15

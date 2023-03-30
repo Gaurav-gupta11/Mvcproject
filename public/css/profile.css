@@ -1,0 +1,96 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: #fff; /* Change to the desired background color */
+        background-image: url('path/to/background-image.jpg'); /* Uncomment and replace with your image path to use a background image */
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+      }
+  
+  
+  .profile-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-email {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .profile-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .profile-action {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .profile-action:hover {
+    background-color: #444;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .nav-text {
+    font-size: 16px;
+  }
+  

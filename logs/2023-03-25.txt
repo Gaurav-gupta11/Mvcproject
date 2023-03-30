@@ -1,0 +1,505 @@
+[25-Mar-2023 18:56:05 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(130): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User::update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 130
+[25-Mar-2023 19:35:07 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(140): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 140
+[25-Mar-2023 19:37:28 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(140): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 140
+[25-Mar-2023 19:38:03 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(140): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 140
+[25-Mar-2023 21:14:53 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$E9p.UrtCkl7WeMsCaL31POu1w8fHRzbTkLo9m69JZnzyL2nNBNXiO' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(157): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 157
+[25-Mar-2023 21:15:14 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$yoSm8ILxkdlhoxZXMoKcj.mMGaQLzzX815CKzetygPV2kPLLqd2aq' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(157): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 157
+[25-Mar-2023 21:19:48 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(10): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 10
+[25-Mar-2023 21:28:39 Asia/Calcutta] Uncaught exception: 'ValueError' with message 'Path cannot be empty'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(147): file_get_contents()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 147
+[25-Mar-2023 21:30:16 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated'
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Views/Items/index.php(11): base64_encode()
+#2 /var/www/pr.com/html/Core/View.php(28): require('...')
+#3 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#4 [internal function]: App\Controllers\Items->indexAction()
+#5 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#6 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#7 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 11
+[25-Mar-2023 21:31:20 Asia/Calcutta] Uncaught exception: 'ValueError' with message 'Path cannot be empty'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(131): file_get_contents()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 131
+[25-Mar-2023 21:34:39 Asia/Calcutta] Uncaught exception: 'ValueError' with message 'Path cannot be empty'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(134): file_get_contents()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 134
+[25-Mar-2023 21:37:02 Asia/Calcutta] Uncaught exception: 'ValueError' with message 'Path cannot be empty'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(151): file_get_contents()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 151
+[25-Mar-2023 21:40:18 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$.Ql0LgZFpF7Y' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(167): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 167
+[25-Mar-2023 21:41:37 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '..U3m WHERE id=23' at line 1'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(168): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 168
+[25-Mar-2023 21:42:57 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$2a1pNIF6j2HFRMKgmfrR.ev8g4x7lEZzScf3xRkJCxe2OguB35tny' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(167): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 167
+[25-Mar-2023 21:43:26 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$NBempV.1r170aApMY4ysoeGRhOm6daxZO7mdDJUgqUr7DCsVTKOuO' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(167): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 167
+[25-Mar-2023 21:43:58 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=23' at line 1'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(167): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 167
+[25-Mar-2023 21:44:10 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$O0Cq8OU' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(167): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 167
+[25-Mar-2023 21:44:17 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$nDA8m0Xs7L9W' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(167): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 167
+[25-Mar-2023 21:44:54 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$ITeg8iom8GaXfVg2LV01rOWUHM.69ZHvhGzuqeqNxpx8daf3hIdge' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(170): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 170
+[25-Mar-2023 21:45:30 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$xyTEMXQFF6QTV03XJWDLX.qhfIF3j3vl6o3mWPeOTZJIlmI' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(170): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 170
+[25-Mar-2023 21:45:38 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$x7' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(170): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 170
+[25-Mar-2023 21:46:11 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$RzbxpmPav4MMC3EOBvg2m.1OoplJ1dr9ZM9yNFf1Kyco74mD.Yz2C' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(170): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 170
+[25-Mar-2023 21:46:15 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/R5kZgpk3ObelFdlGAEgeO WHERE id=23' at line 1'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(170): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 170
+[25-Mar-2023 21:46:35 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$Q8CqWEREp0U2NoSzUq1aPeu0Hin1tDnB2hQMbUt4Pl' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(170): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 170
+[25-Mar-2023 21:46:54 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column '$2y$10$8ZemgDQKch' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(170): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 170
+[25-Mar-2023 21:51:15 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $img_name'
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(144): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 144
+[25-Mar-2023 22:30:59 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:31:48 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:31:59 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:39:06 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->insertActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:39:53 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->insertActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:39:55 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->insertActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:39:56 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->insertActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:40:01 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:40:02 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:40:11 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(34): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->insertActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 34
+[25-Mar-2023 22:45:16 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column 'id' in 'where clause''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(203): mysqli_query()
+#1 /var/www/pr.com/html/Core/Controller.php(96): App\Models\User::findByIDPosts()
+#2 /var/www/pr.com/html/App/Controllers/Items.php(42): Core\Controller->getPosts()
+#3 [internal function]: App\Controllers\Items->insertActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 203
+[25-Mar-2023 22:52:14 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "name"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(16): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->insertActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 16
+[25-Mar-2023 22:54:00 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/Items/myActiviity.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#1 [internal function]: App\Controllers\Items->insertActivityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 30
+[25-Mar-2023 22:54:31 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/Items/myActiviity.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#1 [internal function]: App\Controllers\Items->insertActivityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 30
+[25-Mar-2023 22:56:23 Asia/Calcutta] Uncaught exception: 'Exception' with message 'Method insertActivityAction not found in controllerApp\Controllers\Items'
+Stack trace: #0 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#1 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/pr.com/html/Core/Controller.php' on line 56
+[25-Mar-2023 22:56:40 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/Items/myActiviity.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#1 [internal function]: App\Controllers\Items->myActivityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 30
+[25-Mar-2023 22:57:20 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(7): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 7
+[25-Mar-2023 22:57:49 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(7): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 7
+[25-Mar-2023 22:58:28 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(2): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 2
+[25-Mar-2023 22:58:39 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user1'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(2): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 2
+[25-Mar-2023 23:02:14 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(7): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 7
+[25-Mar-2023 23:03:55 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(7): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 7
+[25-Mar-2023 23:04:46 Asia/Calcutta] Uncaught exception: 'ParseError' with message 'syntax error, unexpected token ";", expecting "function" or "const"'
+Stack trace: #0 /var/www/pr.com/html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#1 /var/www/pr.com/html/Core/Controller.php(96): Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/pr.com/html/App/Controllers/Items.php(42): Core\Controller->getPosts()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 211
+[25-Mar-2023 23:05:52 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(7): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 7
+[25-Mar-2023 23:06:03 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(7): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 7
+[25-Mar-2023 23:06:19 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(7): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 7
+[25-Mar-2023 23:07:18 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/myActivity.php(7): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(28): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(44): Core\View::render()
+#3 [internal function]: App\Controllers\Items->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(51): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(40): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/myActivity.php' on line 7

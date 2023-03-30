@@ -1,0 +1,525 @@
+[28-Mar-2023 09:10:50 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 09:11:01 Asia/Calcutta] Uncaught exception: 'Exception' with message 'Method indexAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#1 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/pr.com/html/Core/Controller.php' on line 57
+[28-Mar-2023 09:11:02 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 09:11:19 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 09:12:23 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 09:13:04 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 09:39:18 Asia/Calcutta] Uncaught exception: 'ParseError' with message 'syntax error, unexpected string content "", expecting "-" or identifier or variable or number'
+Stack trace: #0 /var/www/pr.com/html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/pr.com/html/Core/Router.php(118): class_exists()
+#3 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#4 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 82
+[28-Mar-2023 09:39:20 Asia/Calcutta] Uncaught exception: 'ParseError' with message 'syntax error, unexpected string content "", expecting "-" or identifier or variable or number'
+Stack trace: #0 /var/www/pr.com/html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/pr.com/html/Core/Router.php(118): class_exists()
+#3 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#4 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 82
+[28-Mar-2023 09:39:21 Asia/Calcutta] Uncaught exception: 'ParseError' with message 'syntax error, unexpected string content "", expecting "-" or identifier or variable or number'
+Stack trace: #0 /var/www/pr.com/html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/pr.com/html/Core/Router.php(118): class_exists()
+#3 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#4 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 82
+[28-Mar-2023 09:39:23 Asia/Calcutta] Uncaught exception: 'ParseError' with message 'syntax error, unexpected string content "", expecting "-" or identifier or variable or number'
+Stack trace: #0 /var/www/pr.com/html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/pr.com/html/Core/Router.php(118): class_exists()
+#3 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#4 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 82
+[28-Mar-2023 09:42:31 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'preg_match(): Unknown modifier '/''
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(60): preg_match()
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(76): App\Controllers\Posts->idFetch()
+#3 [internal function]: App\Controllers\Posts->deleteAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 60
+[28-Mar-2023 09:42:35 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'preg_match(): Unknown modifier '/''
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(60): preg_match()
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(45): App\Controllers\Posts->idFetch()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 60
+[28-Mar-2023 09:42:41 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'preg_match(): Unknown modifier '/''
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(60): preg_match()
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(76): App\Controllers\Posts->idFetch()
+#3 [internal function]: App\Controllers\Posts->deleteAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 60
+[28-Mar-2023 09:47:01 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'preg_match(): Unknown modifier '/''
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(60): preg_match()
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(76): App\Controllers\Posts->idFetch()
+#3 [internal function]: App\Controllers\Posts->deleteAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 60
+[28-Mar-2023 09:47:06 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'preg_match(): Unknown modifier '/''
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(60): preg_match()
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(45): App\Controllers\Posts->idFetch()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 60
+[28-Mar-2023 09:48:37 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 09:48:42 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 09:49:13 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 09:55:17 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'preg_match(): No ending delimiter '/' found'
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(60): preg_match()
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(45): App\Controllers\Posts->idFetch()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 60
+[28-Mar-2023 09:58:18 Asia/Calcutta] Uncaught exception: 'ParseError' with message 'syntax error, unexpected token ";", expecting "function" or "const"'
+Stack trace: #0 /var/www/pr.com/html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/pr.com/html/Core/Router.php(118): class_exists()
+#3 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#4 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Posts.php' on line 95
+[28-Mar-2023 10:04:38 Asia/Calcutta] Uncaught exception: 'Exception' with message 'Method newsFeedAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#1 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/pr.com/html/Core/Controller.php' on line 57
+[28-Mar-2023 10:19:08 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 10:19:10 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 10:19:21 Asia/Calcutta] Uncaught exception: 'TypeError' with message 'Cannot access offset of type string on string'
+Stack trace: #0 /var/www/pr.com/html/Core/View.php(29): require()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(98): Core\View::render()
+#2 [internal function]: App\Controllers\Posts->newsFeedAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/newsFeed.php' on line 17
+[28-Mar-2023 12:35:41 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated'
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Models/User.php(82): mysqli_real_escape_string()
+#2 /var/www/pr.com/html/App/Models/User.php(67): App\Models\User::findByEmail()
+#3 /var/www/pr.com/html/App/Models/User.php(60): App\Models\User::emailExists()
+#4 /var/www/pr.com/html/App/Models/User.php(30): App\Models\User->validate()
+#5 /var/www/pr.com/html/App/Controllers/Signup.php(17): App\Models\User->save()
+#6 [internal function]: App\Controllers\Signup->createAction()
+#7 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#8 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#9 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#10 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 82
+[28-Mar-2023 12:35:54 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated'
+Stack trace: #0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/pr.com/html/App/Models/User.php(82): mysqli_real_escape_string()
+#2 /var/www/pr.com/html/App/Models/User.php(67): App\Models\User::findByEmail()
+#3 /var/www/pr.com/html/App/Models/User.php(60): App\Models\User::emailExists()
+#4 /var/www/pr.com/html/App/Models/User.php(30): App\Models\User->validate()
+#5 /var/www/pr.com/html/App/Controllers/Signup.php(17): App\Models\User->save()
+#6 [internal function]: App\Controllers\Signup->createAction()
+#7 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#8 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#9 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#10 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 82
+[28-Mar-2023 13:03:25 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "otp"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(42): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->checkOtpAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 42
+[28-Mar-2023 13:06:29 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(82): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetPasswordAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 82
+[28-Mar-2023 13:06:54 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(82): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetPasswordAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 82
+[28-Mar-2023 13:08:23 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(82): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetPasswordAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 82
+[28-Mar-2023 13:10:42 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(82): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 82
+[28-Mar-2023 13:11:47 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(83): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 83
+[28-Mar-2023 13:12:19 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(83): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 83
+[28-Mar-2023 13:13:03 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(82): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 82
+[28-Mar-2023 13:14:24 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(82): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 82
+[28-Mar-2023 13:14:48 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "password"'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Password.php(82): Core\Error::errorHandler()
+#1 [internal function]: App\Controllers\Password->resetAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/App/Controllers/Password.php' on line 82
+[28-Mar-2023 14:52:51 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/myActivity.php(9): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(37): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/myActivity.php' on line 9
+[28-Mar-2023 15:04:05 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $user'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/myActivity.php(5): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(37): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/myActivity.php' on line 5
+[28-Mar-2023 15:05:32 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined array key "title"'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(15): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 15
+[28-Mar-2023 15:12:26 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Data too long for column 'image' at row 1'
+Stack trace: #0 /var/www/pr.com/html/App/Models/Postsdb.php(86): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(70): App\Models\Postsdb->updatePostActivity()
+#2 /var/www/pr.com/html/Core/Router.php(125): App\Controllers\Posts->editActivityAction()
+#3 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#4 {main}
+Thrown in '/var/www/pr.com/html/App/Models/Postsdb.php' on line 86
+[28-Mar-2023 15:13:22 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Data too long for column 'image' at row 1'
+Stack trace: #0 /var/www/pr.com/html/App/Models/Postsdb.php(86): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(70): App\Models\Postsdb->updatePostActivity()
+#2 /var/www/pr.com/html/Core/Router.php(125): App\Controllers\Posts->editActivityAction()
+#3 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#4 {main}
+Thrown in '/var/www/pr.com/html/App/Models/Postsdb.php' on line 86
+[28-Mar-2023 15:15:10 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(17): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 17
+[28-Mar-2023 15:15:11 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(17): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 17
+[28-Mar-2023 15:15:12 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/editActivity.php(17): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(47): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->editAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/editActivity.php' on line 17
+[28-Mar-2023 15:15:56 Asia/Calcutta] Uncaught exception: 'Exception' with message 'Method newsfeedAction not found in controllerApp\Controllers\Home'
+Stack trace: #0 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#1 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/pr.com/html/Core/Controller.php' on line 57
+[28-Mar-2023 16:25:14 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $post'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Items/index.php(87): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#3 [internal function]: App\Controllers\Items->indexAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 87
+[28-Mar-2023 16:26:38 Asia/Calcutta] Uncaught exception: 'TypeError' with message 'Cannot access offset of type string on string'
+Stack trace: #0 /var/www/pr.com/html/Core/View.php(29): require()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#2 [internal function]: App\Controllers\Items->indexAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 89
+[28-Mar-2023 16:28:27 Asia/Calcutta] Uncaught exception: 'TypeError' with message 'Cannot access offset of type string on string'
+Stack trace: #0 /var/www/pr.com/html/Core/View.php(29): require()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#2 [internal function]: App\Controllers\Items->indexAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 90
+[28-Mar-2023 16:29:17 Asia/Calcutta] Uncaught exception: 'TypeError' with message 'Cannot access offset of type string on string'
+Stack trace: #0 /var/www/pr.com/html/Core/View.php(29): require()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(14): Core\View::render()
+#2 [internal function]: App\Controllers\Items->indexAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Items/index.php' on line 90
+[28-Mar-2023 21:21:16 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column 'img_name' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(151): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 151
+[28-Mar-2023 21:22:54 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column 'img_name' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(151): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 151
+[28-Mar-2023 21:23:05 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column 'img_name' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(179): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 179
+[28-Mar-2023 21:27:04 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column 'img_name' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(151): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 151
+[28-Mar-2023 21:27:24 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column 'img_name' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/User.php(151): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Items.php(24): App\Models\User->update()
+#2 [internal function]: App\Controllers\Items->updateAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/User.php' on line 151
+[28-Mar-2023 21:34:07 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column 'users.img_name' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/Postsdb.php(109): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(97): App\Models\Postsdb::showAllPosts()
+#2 [internal function]: App\Controllers\Posts->newsFeedAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/Postsdb.php' on line 109
+[28-Mar-2023 21:34:07 Asia/Calcutta] Uncaught exception: 'mysqli_sql_exception' with message 'Unknown column 'users.img_name' in 'field list''
+Stack trace: #0 /var/www/pr.com/html/App/Models/Postsdb.php(109): mysqli_query()
+#1 /var/www/pr.com/html/App/Controllers/Posts.php(97): App\Models\Postsdb::showAllPosts()
+#2 [internal function]: App\Controllers\Posts->newsFeedAction()
+#3 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#4 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#5 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#6 {main}
+Thrown in '/var/www/pr.com/html/App/Models/Postsdb.php' on line 109
+[28-Mar-2023 22:41:28 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/Posts/activity.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Posts.php(17): Core\View::render()
+#1 [internal function]: App\Controllers\Posts->activityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 31
+[28-Mar-2023 22:42:49 Asia/Calcutta] Uncaught exception: 'Exception' with message '../App/Views/Posts/activity.php not found'
+Stack trace: #0 /var/www/pr.com/html/App/Controllers/Posts.php(17): Core\View::render()
+#1 [internal function]: App\Controllers\Posts->activityAction()
+#2 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#3 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#4 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/pr.com/html/Core/View.php' on line 31
+[28-Mar-2023 23:13:31 Asia/Calcutta] Uncaught exception: 'ErrorException' with message 'Undefined variable $posts'
+Stack trace: #0 /var/www/pr.com/html/App/Views/Posts/myActivity.php(28): Core\Error::errorHandler()
+#1 /var/www/pr.com/html/Core/View.php(29): require('...')
+#2 /var/www/pr.com/html/App/Controllers/Posts.php(37): Core\View::render()
+#3 [internal function]: App\Controllers\Posts->myActivityAction()
+#4 /var/www/pr.com/html/Core/Controller.php(52): call_user_func_array()
+#5 /var/www/pr.com/html/Core/Router.php(125): Core\Controller->__call()
+#6 /var/www/pr.com/html/public/index.php(43): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/pr.com/html/App/Views/Posts/myActivity.php' on line 28
