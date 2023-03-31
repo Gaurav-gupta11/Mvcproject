@@ -288,5 +288,19 @@ class User extends Model {
       return mysqli_query($db, $sql);        
     }
   }
+
+  public static function searchActivity($data){
+    $name = $data['search-query'];
+    $db = self::getDB();
+    $id = $_SESSION['user_id'];
+    $sql = "SELECT * FROM users 
+    WHERE name = '$name' AND id != '$id'";
+    $result = mysqli_query($db, $sql);
+    $data =[];
+    while ($row = mysqli_fetch_assoc($result)) {
+      array_push($data, $row);
+  }
+  return $data;  
+  }
 }
 ?>

@@ -1,0 +1,213 @@
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 80px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #444;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  header a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-icon {
+    font-size: 24px;
+    margin-right: 5px;
+    height: 24px;
+  }
+  
+  .profile-icon {
+    font-size: 24px;
+    margin-right: 5px;
+    height: 24px;
+  }
+  
+  .home-icon {
+    font-size: 24px;
+    margin-right: 5px;
+    height: 24px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    max-height: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  /* reset default browser styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+/* center align main content */
+main {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 20px;
+}
+
+/* styling for header */
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.nav-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+/* styling for icons */
+.nav-icon {
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .profile-container-wrapper {
+    border: 1px solid black;
+    padding: 10px; /* add some distance from the form */
+  }
+  
+  
+  .profile-image-placeholder {
+    background-color: #ddd;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .profile-name {
+    font-size: 24px;
+  }
+  
+  
+  .profile-img-wrapper {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .profile-img-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  

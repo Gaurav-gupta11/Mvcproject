@@ -18,6 +18,10 @@
 				<img src="/images/profile.png" alt="Profile" class="nav-icon">
 				<span class="nav-text">Profile</span>
 			</a>
+      <a href="/Search/new" class="nav-link">
+				<img src="/images/search.png" alt="Logout" class="nav-icon">
+				<span class="nav-text">Search</span>
+			</a>
 			<a href="/Login/destroy" class="nav-link">
 				<img src="/images/logout.png" alt="Logout" class="nav-icon">
 				<span class="nav-text">Logout</span>

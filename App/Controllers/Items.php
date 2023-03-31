@@ -28,6 +28,8 @@ class Items extends \Core\Controller {
    *   The rendered output of the index page.
    */
   public function indexAction() {
+    $id = $_SESSION['user_id'];
+    $_SESSION['id']=$id;
     $user = static::getUSer();
     View::render('Items/index.php', ['user' => $user]);
   }
@@ -50,12 +52,12 @@ class Items extends \Core\Controller {
    *   Redirects to the index page.
    */
   public function updateAction() {
-    if(self::checkEmailAction($_POST['email'])){
+    //if(self::checkEmailAction($_POST['email'])){
       $user = new User($_POST);
       if ($user->update($_FILES)) {
         header('Location: /Items/index');
       }
-    }
+    //}
     else{
 			Flash::addMessage('Email does not exist');
 					header('Location: /Items/edit');

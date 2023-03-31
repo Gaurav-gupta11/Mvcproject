@@ -32,6 +32,7 @@ class Login extends \Core\Controller {
     if ($user) {
       session_regenerate_id(true);
       $_SESSION['user_id'] = $user->id;
+      $_SESSION['id']= $user->id;
       if (!empty($_SESSION['return_to'])) {
         $request = $_SESSION['return_to'];
         header('Location:' . $request);
