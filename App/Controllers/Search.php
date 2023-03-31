@@ -29,11 +29,26 @@ class Search extends Controller {
     $this->requiredLogin();
   }
 
+  /**
+   * Displays the search results.
+   *
+   * @return void
+   *   The rendered view of the search results.
+   */
   public function searchAction() {
 		$user = static::searchUSer();
 		View::render('Search/new.php', ['user' => $user]);
   }
 
+  /**
+   * Fetches the id of the user from the url.
+   *
+   * @param string $url
+   *   The url from which to extract the id.
+   *
+   * @return void
+   *   The id of the user.
+   */
 	public function idFetch($url) {
     // Parse the URL to get its different parts.
     $url_parts = parse_url($url);
@@ -48,7 +63,13 @@ class Search extends Controller {
       $_SESSION['id'] = $id;
     }
   }
-
+    
+  /**
+   * Displays the user profile.
+   *
+   * @return void
+   *   The rendered view of the user profile.
+   */
   public function profileAction() {
     $this->idFetch($_SERVER['REQUEST_URI']);
     $user = static::getUSerSearch();

@@ -52,12 +52,12 @@ class Items extends \Core\Controller {
    *   Redirects to the index page.
    */
   public function updateAction() {
-    //if(self::checkEmailAction($_POST['email'])){
+    if(self::checkEmailAction($_POST['email'])){
       $user = new User($_POST);
       if ($user->update($_FILES)) {
         header('Location: /Items/index');
       }
-    //}
+    }
     else{
 			Flash::addMessage('Email does not exist');
 					header('Location: /Items/edit');
