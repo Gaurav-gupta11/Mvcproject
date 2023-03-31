@@ -289,6 +289,13 @@ class User extends Model {
     }
   }
 
+  /**
+   * Search activity for users.
+   *
+   *  @param array $data The data to search for users.
+   * 
+   * @return array The data of users found in the database.
+   */
   public static function searchActivity($data){
     $name = $data['search-query'];
     $db = self::getDB();

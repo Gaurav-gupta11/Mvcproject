@@ -26,7 +26,7 @@ class Signup extends \Core\Controller
 	 */
 	public function newAction()
 	{
-			View::render('Signup/new.php');
+		View::render('Signup/new.php');
 	}
 	
 	/**
@@ -36,7 +36,7 @@ class Signup extends \Core\Controller
 	 */
 	public function createAction()
 	{
-		//if(self::checkEmailAction($_POST['email'])){
+		if(self::checkEmailAction($_POST['email'])){
 			$user = new User($_POST);
 			if($user->save()) {
 				$email = $_POST['email'];
@@ -49,12 +49,12 @@ class Signup extends \Core\Controller
 							'user' => $user
 					]);
 			}
-		//}
-		//else{
-			//Flash::addMessage('Email does not exist');
-					//header('Location: /Signup/new');
-		//}
-	}
+		}
+		else{
+			Flash::addMessage('Email does not exist');
+					header('Location: /Signup/new');
+		}
+	}	
 
 }
 ?>
