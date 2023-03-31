@@ -38,7 +38,7 @@ class Config
    *
    * @var boolean
    */
-	const SHOW_ERRORS = true;
+	const SHOW_ERRORS = false;
 
 	/**
 	 * The SMTP host for sending emails.
